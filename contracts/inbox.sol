@@ -4,7 +4,7 @@ pragma solidity >=0.7.0 <0.9.0;
 // Contract declaration
 contract Inbox {
     // Storage variable declaration
-    string public message;
+    string private message;
 
     // Constructor declaration
     constructor(string memory initialMessage) {
