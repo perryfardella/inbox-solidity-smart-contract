@@ -1,23 +1,23 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity >=0.7.0 <0.9.0;
 
 // Contract declaration
 contract Inbox {
     // Storage variable declaration
-    bytes32 public message;
+    string public message;
 
     // Constructor declaration
-    constructor(bytes32 initialMessage) {
+    constructor(string memory initialMessage) {
         message = initialMessage;
     }
 
     // Declare setter function
-    function setMessage(bytes32 newMessage) public {
+    function setMessage(string memory newMessage) public {
         message = newMessage;
     }
 
     // Declare getter function
-    function getMessage() public view returns (bytes32) {
+    function getMessage() public view returns (string memory) {
         return message;
     }
 }
