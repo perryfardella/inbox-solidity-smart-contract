@@ -1,10 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/perry/projects/inbox-solidity-smart-contract/contracts/inbox.sol": {
-      "lastModificationDate": 1639299691366,
+    "/Users/perry/projects/inbox-solidity-smart-contract/contracts/Inbox.sol": {
+      "lastModificationDate": 1639365265565,
       "contentHash": "6682a951f7141b5426ff2d8da52d6688",
-      "sourceName": "contracts/inbox.sol",
+      "sourceName": "contracts/Inbox.sol",
       "solcConfig": {
         "version": "0.8.7",
         "settings": {
@@ -25,6 +25,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },
