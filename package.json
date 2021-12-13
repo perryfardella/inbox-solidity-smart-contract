@@ -6,11 +6,12 @@
     "build": "hardhat compile",
     "test:light": "hardhat test",
     "test": "hardhat coverage",
-    "deploy:local": "hardhat run --network localhost scripts/deployIndex.js"
+    "deploy:local": "hardhat run --network localhost scripts/deployInbox.js",
+    "local-testnet": "hardhat node"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Perry Fardella",
+  "license": "MIT",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
